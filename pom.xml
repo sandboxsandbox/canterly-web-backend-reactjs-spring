@@ -158,6 +158,16 @@
             <artifactId>jaxb-api</artifactId>
             <version>${jaxb-api.version}</version>
         </dependency>
+
+
+        <!-- Install ORTool libraries for Linear Programming - https://mvnrepository.com/artifact/com.google.ortools/ortools-java -->
+        <!-- Check Canterly Phyton in Github: https://github.com/sandboxsandbox/canterly-scheduling-python -->
+        <dependency>
+            <groupId>com.google.ortools</groupId>
+            <artifactId>ortools-java</artifactId>
+            <version>9.9.3963</version>
+        </dependency>
+
     </dependencies>
 
     <build>
